@@ -12,11 +12,13 @@ This is my ongoing study project on implementing a multi-tenancy application wit
 * Filament 5.2.1
 * Tenancy for Laravel v4
 * PostgreSQL 18.0
+* Redis 7.0.15
 
 ## Development Setup
 * Central domain: f4m4.intranet
 * Tenant domain: tenant1.f4m4.intranet, etc.
 * Panels: /admin for central and /app for tenant
+* Redis for session management
 
 ## Development Updates
 Every key milestone and issue will be published on the [Release page](https://github.com/billydekid/f4m4/releases).
